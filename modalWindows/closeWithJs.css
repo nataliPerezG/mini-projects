@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Shantell Sans", cursive;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h2 {
+  margin: 0;
+}
+
+.modal {
+  position: absolute;
+  background-color: #0008;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 40%;
+  margin: auto;
+  margin-top: 70px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.modal-content h4 {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  color: green;
+}
+
+.close {
+  background-color: darkgreen;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 13px;
+  outline: none;
+  border: 2px solid darkgreen;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 2px;
+}
+
+.center {
+  width: 70dvw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
+p {
+  line-height: 1.5;
+  word-spacing: 2px;
+}
