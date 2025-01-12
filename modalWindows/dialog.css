@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+dialog {
+  position: absolute;
+  background-color: #0008;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 2px;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  padding: 15px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  border-radius: 2px;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: #555;
+}
