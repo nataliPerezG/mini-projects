@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  background-color: #516263;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  color: #fff;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+
+.container {
+  background-color: #32355e;
+
+  margin: 0 auto;
+}
+
+.list {
+  width: 80%;
+  margin: 0;
+  margin-left: auto;
+
+  padding: 0;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #516263;
+  border-radius: 5px;
+}
+
+.list-item:hover {
+  background-color: #71747a;
+}
+
+.list-link {
+  text-decoration: none;
+  color: #fff;
+  line-height: .5;
+  margin-left: 3px;
+}
+
+.list-link:hover {
+  cursor: pointer;
+}
+
+.button {
+  margin-left: 70px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 2px solid #32355e
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #516263;
+  box-shadow: 0 0 5px #fff;
+}
