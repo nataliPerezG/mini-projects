@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #444;
+  background-color: #a71515;
+  border-radius: 10px;
+}
+
+.linear {
+  background-image: linear-gradient(to left bottom, black, purple, white 99%);
+}
+
+.linear-patron {
+  background-image: repeating-linear-gradient(120deg, black 0px 5px, purple 5px 10px, white 10px 15px);
+}
+
+.radial {
+  background-image: radial-gradient(at bottom, black 5%, purple, white 99%);
+}
+
+.radial-patron {
+  background-image:
+    repeating-radial-gradient(at top right, black 0px 5px, purple 5px 10px, white 10px 15px);
+}
+
+.conic {
+  background-image: conic-gradient(black, purple, rgb(95, 0, 139), white);
+}
+
+.conic-patron {
+  background-image:
+    repeating-conic-gradient(black 0% 8%, purple 10% 18%, white 20% 28%);
+}
+
+.dona {
+  border-radius: 50%;
+  background-image:
+    radial-gradient(white 25%, transparent 26%),
+    conic-gradient(red 20%, green 21% 75%, yellow 76%);
+}
+
+.bandera {
+  background-image: linear-gradient(yellow 49%, blue 50% 75%, darkred 76%);
+}
