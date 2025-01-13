@@ -17,7 +17,6 @@ h2 {
 }
 
 dialog {
-  position: absolute;
   background-color: #0008;
   width: 100dvw;
   height: 100dvh;

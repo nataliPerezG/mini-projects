@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.charm-bold {
+  font-family: "Charm", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #000;
+  color: whitesmoke;
+  width: 100dvw;
+  height: 10dvh;
+
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-family: "Charm", serif;
+  font-weight: 700;
+}
+
+section {
+  width: 55%;
+  margin: 10px auto;
+  padding: 0 20px;
+  margin-top: 10dvh;
+}
+
+section .sticky {
+  position: sticky;
+  top: 12dvh;
+}
+
+
+h3 {
+  font-family: "Satisfy", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  display: inline-block;
+  box-shadow: 2px 2px 20px 3px #555;
+  border-radius: 5px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.blanco {
+  background-color: #fff;
+}
+
+.negro {
+  background-color: #bbb;
+  color: #fff;
+}
+
+
+
+section>article:nth-child(odd) {
+  background-image: linear-gradient(#ccc 20%, transparent);
+  border-radius: 10px;
+}
+
+pre {
+  text-align: end;
+  margin-right: 30px;
+  font-family: "Charm", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
