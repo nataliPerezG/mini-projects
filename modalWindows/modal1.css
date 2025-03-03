@@ -1,0 +1,94 @@
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+
+  main {
+    width: 80dvw;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(239, 230, 241);
+    text-align: center;
+    font-size: .8rem;
+  }
+
+  .ventana-modal {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0008;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    /*le quita la interactividad a los enlaces y botones*/
+    opacity: 0;
+  }
+
+  .ventana-modal:target {
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .modal-container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 55dvh;
+    border: 5px double purple;
+    border-radius: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    overflow: hidden;
+    font-size: .8rem;
+  }
+
+  .modal-container p {
+    text-align: justify;
+  }
+
+  .modal-container li {
+    list-style: none;
+  }
+
+  .modal-container li a {
+    text-decoration: none;
+    color: purple;
+  }
+
+  .cerrar-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(175, 20, 175);
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2rem;
+    /*Como es una sola línea, esta propiedad centra verticalmente.*/
+    transition: background-color 300ms linear, transform 300ms ease;
+  }
+
+  .cerrar-modal:hover {
+    background-color: purple;
+    transform: scale(1.1);
+  }
